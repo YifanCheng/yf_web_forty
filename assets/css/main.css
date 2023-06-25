@@ -2158,6 +2158,7 @@ input, select, textarea {
 		background-color: #37a6cb;
 	}
 
+
 /* Image */
 
 	.image {
@@ -2563,6 +2564,14 @@ input, select, textarea {
 			margin-right: 0.5em;
 		}
 
+                input[type="submit"].icon2:before,
+                input[type="reset"].icon2:before,
+                input[type="button"].icon2:before,
+                button.icon2:before,
+                .button.icon2:before {
+                        margin-right: 0.5em;
+                }
+
 		input[type="submit"].fit,
 		input[type="reset"].fit,
 		input[type="button"].fit,
@@ -2830,29 +2839,33 @@ input, select, textarea {
 				width: 60%;
 			}
 
-			.tiles article:nth-child(6n - 5):before {
-				background-color: #6fc3df;
+			.tiles article:nth-child(7n - 6):before {
+				background-color: #C98686;
 			}
 
-			.tiles article:nth-child(6n - 4):before {
-				background-color: #8d82c4;
+			.tiles article:nth-child(7n - 5):before {
+				background-color: #007EA7;
 			}
 
-			.tiles article:nth-child(6n - 3):before {
-				background-color: #ec8d81;
+			.tiles article:nth-child(7n - 4):before {
+				background-color: #E3DC95;
 			}
 
-			.tiles article:nth-child(6n - 2):before {
-				background-color: #e7b788;
+			.tiles article:nth-child(7n - 3):before {
+				background-color: #B9C6AE;
 			}
 
-			.tiles article:nth-child(6n - 1):before {
-				background-color: #8ea9e8;
+			.tiles article:nth-child(7n - 2):before {
+				background-color: #C44536;
 			}
 
-			.tiles article:nth-child(6n):before {
-				background-color: #87c5a4;
+			.tiles article:nth-child(7n - 1):before {
+				background-color: #C97D60;
 			}
+
+                        .tiles article:nth-child(7n):before {
+                                background-color: #C7D59F;
+                        }
 
 		@media screen and (max-width: 1280px) {
 
@@ -3481,7 +3494,7 @@ input, select, textarea {
 				}
 
 		#banner.major {
-			height: 75vh;
+			height: 40vh;
 			min-height: 30em;
 			max-height: 50em;
 		}
@@ -3491,28 +3504,32 @@ input, select, textarea {
 			}
 
 		#banner.style1:after {
-			background-color: #6fc3df;
+			background-color: #C98686;
 		}
 
 		#banner.style2:after {
-			background-color: #8d82c4;
+			background-color: #007EA7;
 		}
 
 		#banner.style3:after {
-			background-color: #ec8d81;
+			background-color: #E3DC95;
 		}
 
 		#banner.style4:after {
-			background-color: #e7b788;
+			background-color: #B9C6AE;
 		}
 
 		#banner.style5:after {
-			background-color: #8ea9e8;
+			background-color: #C44536;
 		}
 
 		#banner.style6:after {
-			background-color: #87c5a4;
+			background-color: #C97D60;
 		}
+
+                #banner.style7:after {
+                        background-color: #C7D59F;
+                }
 
 		body.is-preload #banner:after {
 			opacity: 1.0;
